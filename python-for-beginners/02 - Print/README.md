@@ -1,22 +1,22 @@
-# print
+# print 구문
 
-The print function allows you to send output to the terminal
+print 함수를 사용하면 결과를 출력할 수 있습니다.
 
 - [print](https://docs.python.org/3/library/functions.html#print)
 
-Strings can be enclosed in single quotes or double quotes
+문자열은 작은 따옴표 또는 큰 따옴표로 묶을 수 있습니다.
 
 - "this is a string"
 - 'this is also a string'
 
-The input function allows you to prompt a user for a value
+input 함수를 사용하면 사용자에게 값을 입력 받을 수 있습니다.
 
 - [input](https://docs.python.org/3/library/functions.html#input)
   
-Parameters:
+파라미터:
 
-- `prompt`: Message to display to the user  
+- `prompt`: 사용자에게 보여줄 메시지
 
-return value:
+리턴 값:
 
-- string value containing value entered by user
+- 사용자가 입력 한 값을 포함하는 문자열

@@ -1,13 +1,10 @@
-# Each print statements starts on a new line
+# 각 print 구문은 새 라인에서 출력됩니다.
 print('Hello world')
 
-# If you pass nothing to the print statement you get a blank line
+# print 문에 아무것도 전달하지 않으면 빈 라인이 출력됩니다.
 print()
 print('Did you see that blank line?')
 
-# '\n' is a special character sequence that means print new line
-# you can use it to break the output over multiple lines
+# '\ n'은 새 라인 출력을 의미하는 특수 문자입니다.
+# 여러 줄에 걸쳐 출력을 분리하는 데 사용할 수 있습니다.
 print('Blank line \nin the middle of string')
-
-
-
