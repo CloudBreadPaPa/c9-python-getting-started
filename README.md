@@ -40,14 +40,14 @@ Channel9 및 YouTube에 있는 이 세가지 시리즈 강좌는 Python을 빠�
 
 
 ## 다음 단계
-이 과정의 목표는 Python 강좌를 통해 스스로 프로젝트 개발을 시작할 수 있도록 하는 것이 목표이며, 다음 단계로는 새로운 주제의 Python 튜토리얼 강좌를 직접 진행하는 것입니다! 다음 강좌들을 추천합니다.
-- [Face REST API 및 Python을 사용하여 이미지에서 얼굴을 감지] (https://docs.microsoft.com/azure/cognitive-services/face/QuickStarts/Python?WT.mc_id=python-c9-niner? WT.mc_id = python-c9-niner)
-- [Computer Vision REST API 및 Python을 사용하여 이미지 분석] (https://docs.microsoft.com/azure/cognitive-services/computer-vision/quickstarts/python-disk?WT.mc_id=python- c9-niner? WT.mc_id = python-c9-niner)
-- [Python REST API를 사용하여 Text Analytics Cognitive Service 호출] (https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/quickstarts/python?WT.mc_id=python-c9- niner? WT.mc_id = python-c9-niner)
--[Azure Cognitive Services로 Flask 웹 어플리케이션 개발] (https://docs.microsoft.com/azure/cognitive-services/translator/tutorial-build-flask-app-translation-synthesis?WT.mc_id=python- c9-niner)
--[Visual Studio Code로 Flask 웹 어플리케이션 개발] (https://code.visualstudio.com/docs/python/tutorial-flask?WT.mc_id=python-c9-niner)
--[Visual Studio Code의 으로 Django 어플리케이션 개발] (https://code.visualstudio.com/docs/python/tutorial-django?WT.mc_id=python-c9-niner)
--[Python에서 머신러닝 모델을 생성하여 비행 시각 지연 예측] (https://docs.microsoft.com/learn/modules/predict-flight-delays-with-python?WT.mc_id=python-c9-niner)
+이 과정의 목표는 Python 강좌를 통해 스스로 프로젝트 개발을 시작할 수 있도록 하는 것이 목표이며, 다음 단계로는 새로운 주제의 Python 튜토리얼들을 직접 진행하는 것입니다! 다음 강좌들을 추천합니다.
+- [Face REST API 및 Python을 사용하여 이미지에서 얼굴을 감지](https://docs.microsoft.com/azure/cognitive-services/face/QuickStarts/Python?WT.mc_id=python-c9-niner?WT.mc_id=python-c9-niner)
+- [Computer Vision REST API 및 Python을 사용하여 이미지 분석](https://docs.microsoft.com/azure/cognitive-services/computer-vision/quickstarts/python-disk?WT.mc_id=python-c9-niner?WT.mc_id=python-c9-niner)
+- [Python REST API를 사용하여 Text Analytics Cognitive Service 호출](https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/quickstarts/python?WT.mc_id=python-c9-niner?WT.mc_id=python-c9-niner)
+- [Azure Cognitive Services로 Flask 웹 어플리케이션 개발](https://docs.microsoft.com/azure/cognitive-services/translator/tutorial-build-flask-app-translation-synthesis?WT.mc_id=python-c9-niner)
+- [Visual Studio Code로 Flask 웹 어플리케이션 개발](https://code.visualstudio.com/docs/python/tutorial-flask?WT.mc_id=python-c9-niner)
+- [Visual Studio Code의 으로 Django 어플리케이션 개발](https://code.visualstudio.com/docs/python/tutorial-django?WT.mc_id=python-c9-niner)
+- [Python에서 머신러닝 모델을 생성하여 비행 시각 지연 예측](https://docs.microsoft.com/learn/modules/predict-flight-delays-with-python?WT.mc_id=python-c9-niner)
 
 
 ## Contributing
