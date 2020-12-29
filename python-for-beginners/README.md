@@ -24,8 +24,8 @@
 
 ## 준비할 사항
 
--[Git에 대한 이해](https://git-scm.com/book/en/v1/Getting-Started)
--[JavaScript](https://www.edx.org/course/javascript-introduction)와 같은 다른 프로그래밍 언어에 대한 약간의 경험이 있다면 더 쉽게 진행 가능
+- [Git에 대한 이해](https://git-scm.com/book/en/v1/Getting-Started)
+- [JavaScript](https://www.edx.org/course/javascript-introduction)와 같은 다른 프로그래밍 언어에 대한 약간의 경험이 있다면 더 쉽게 진행 가능
 
 
 ## 다음 단계
