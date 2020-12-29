@@ -1,21 +1,20 @@
-# Here's a challenge for you to help you practice
-# See if you can fix the code below 
+# 연습에 도움이되는 도전 과제가 있습니다.
+# 아래 코드를 수정할 수 있는지 확인하세요.
 
-# print the message
-# There was a single quote inside the string!
-# Use double quotes to enclose the string
+# 메시지를 출력합니다.
+# 문자열 안에 작은 따옴표가있었습니다.
+# 큰 따옴표를 사용하여 문자열을 묶습니다.
 print("Why won't this line of code print")
 
-# print the message
-# There was a mistake in the function name
+# 메시지를 출력합니다.
+# 함수 이름에 오류가 있습니다.
 print('This line fails too!')
 
-# print the message
-# Need to add the () around the string
+# 메시지를 출력합니다.
+# 문자열 앞뒤에 ()를 추가해야합니다.
 print ("I think I know how to fix this one")
 
-# print the name entered by the user
-# You need to store the value returned by the input statement
-# in a variable
+# 사용자가 입력 한 이름을 출력합니다.
+# Input 구문에서 리턴 한 값을 변수에 저장해야합니다.
 name = input('Please tell me your name: ')
 print(name)
