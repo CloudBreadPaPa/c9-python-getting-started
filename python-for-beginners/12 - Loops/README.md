@@ -1,8 +1,8 @@
-# Loops
+# 반복문(Loops) - 이하 루프
 
-## For loops
+## For 루프
 
-[For loops](https://docs.python.org/3/reference/compound_stmts.html#the-for-statement) takes each item in an array or collection in order, and assigns it to the variable you define.
+[For 루프](https://docs.python.org/3/reference/compound_stmts.html#the-for-statement)는 array 또는 collection의 각 항목을 순서대로 가져 와서 정의한 변수에 할당합니다.
 
 ``` python
 names = ['Christopher', 'Susan']
@@ -10,9 +10,9 @@ for name in names:
     print(name)
 ```
 
-## While loops
+## While 루프
 
-[While loops](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement) perform an operation as long as a condition is true.
+[While 루프](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement)는 조건이 true인 작업을 만날때까지 계속 작업을 수행합니다.
 
 ``` python
 names = ['Christopher', 'Susan']
