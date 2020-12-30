@@ -1,7 +1,7 @@
 from datetime import datetime
 
-# What if we want different messages displayed?
-# Can we still use a function?
+# 다른 메시지를 표시하려면, 여전히 함수를 사용할 수 있을까요?
+
 first_name = 'Susan'
 print('first name assigned')
 print(datetime.now())

@@ -1,11 +1,9 @@
-# Create a calculator function
-# The function should accept three parameters:
-# first_number: a numeric value for the math operation
-# second_number: a numeric value for the math operation
-# operation: the word 'add' or 'subtract'
-# the function should return the result of the two numbers added or subtracted
-# based on the value passed in for the operator
-#
+# calculator 함수를 생성
+# 이 함수는 세개의 파리미터를 입력받습니다.
+# first_number : 수치 연산을 위한 숫자 값
+# second_number : 수치 연산을 위한 숫자 값
+# operator : 'add' 또는 'minus'라는 단어
+# 함수의 operator 파리미터로 전달된 값에 따라, 더하거나 뺀 두 숫자의 결과를 출력해야 합니다.
 
 def calculator(first_number, second_number, operation):
     if operation.upper() == 'ADD':
@@ -14,13 +12,12 @@ def calculator(first_number, second_number, operation):
         return(float(first_number) - float(second_number))
     else:
         return('Invalid operation please specify ADD or SUBTRACT')
-# Test your function with the values 6,4, add 
-# Should return 10
-#
+
+# 6, 4, add 값으로 함수를 테스트하고, 결과로 10을 출력해야 합니다.
 print('Adding 6 + 4 = ' + str(calculator(6,4,'add')))
-# Test your function with the values 6,4, subtract 
-# Should return 2
+
+# 6, 4, subtract 값으로 함수를 테스트하고, 결과로 2를 출력해야 합니다.
 print('Subtracting 6 - 4 = ' + str(calculator(6,4,'subtract')))
-# Test your function with the values 6,4, divide 
-# Should return some sort of error message
+
+# 6, 4, divide 값으로 함수를 테스트하고, 실행 결과는 에러 메세지를 출력해야 합니다.
 print('Dividing 6 / 4 = ' + str(calculator(6,4,'divide')))

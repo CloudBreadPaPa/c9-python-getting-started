@@ -1,6 +1,5 @@
 import datetime
-# print timestamps after each section of code
-# to see how long sections of code take to run
+# 각 코드 섹션 다음에 timestamp를 인쇄하여 코드 실행에 걸리는 시간을 확인합니다.
 
 first_name = 'Susan'
 print('task completed')

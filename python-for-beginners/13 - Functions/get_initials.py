@@ -1,4 +1,4 @@
-# Ask for a name and return the initials
+# 이름을 요청하고 이니셜을 리턴합니다.
 first_name = input('Enter your first name: ')
 first_name_initial = first_name[0:1]
 
