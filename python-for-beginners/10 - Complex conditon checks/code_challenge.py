@@ -1,24 +1,23 @@
-# When you join a hockey team you get your name on the back of the jersey
-# but the jersey may not be big enough to hold all the letters
-# Ask the user for their first name
+# 하키 팀에 가입하면 유니폼 뒷면에 이름이 표시됩니다, 
+# 그렇지만 유니폼은 이름의 모든 글자를 담을만큼 충분히 크지 않을 수도 있습니다.
+# 사용자에게 이름을 묻습니다.
+# 사용자에게 성을 입력 받습니다.
 
-# Ask the user for their last name
+# 이름이 < 10 이고 성이 < 10 인 경우
+#   유니폼에 성과 이름을 인쇄
+# 이름이 >= 10 이고 성이 < 10 인 경우
+#   이름의 첫 이니셜과 성 전체를 인쇄합니다.
+# 이름이 < 10 이고 성이 >= 10 인 경우
+#   전체 이름과 성의 첫 이니셜을 인쇄합니다.
+# 이름이 >= 10 이고 성이 >= 10 인 경우
+#   성만 인쇄합니다.
 
-# if first name is < 10 characters and last name is < 10 characters 
-#       print first and last name on the jersey
-# if first name >= 10 characters long and last name is < 10 characters
-#       print first initial of first name and the entire last name
-# if first name < 10 characters long and last name is >= 10 characters
-#       print entire first name and first initial of last name
-# if first name >= 10 characters long and last name is >= 10 characters
-#       print last name only
-
-# Test with the following values
-# first name: Susan  last name: Ibach
-# output: Susan Ibach
-# first name: Susan  last name: ReallyLongLastName
-# output: Susan R.
-# first name: ReallyLongFirstName  last name: Ibach
-# output: R. Ibach
-# first name: ReallyLongFirstName  last name: ReallyLongLastName
-# output: ReallyLongLastName
+# 다음 이름을 테스트합니다.
+# 이름 : Susan  성 : Ibach
+# 결과 : Susan Ibach
+# 이름 : Susan  성 : ReallyLongLastName
+# 결과 : Susan R.
+# 이름 : ReallyLongFirstName  성 : Ibach
+# 결과 : R. Ibach
+# 이름 : ReallyLongFirstName  성 : ReallyLongLastName
+# 결과 : ReallyLongLastName
