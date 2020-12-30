@@ -1,17 +1,10 @@
-# This code will show you how to call the Computer Vision API from Python
-# You can find documentation on the Computer Vision Analyze Image method here
-# https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa
-
 # 이 코드는 Python에서 Computer Vision API를 호출하는 방법을 보여줍니다.
 # Computer Vision의 Analyze Image 메서드 대한 문서는 여기에서 찾을 수 있습니다.
 # https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa
 
-# Use the requests library to simplify making a REST API call from Python 
 # requests 라이브러리를 사용하여 Python에서 간단하게 REST API 호출을 진행합니다.
 import requests
 
-# We will need the json library to read the data passed back 
-# by the web service
 # 웹 서비스의 응답(Response)를 처리하려면 json 라이브러리가 필요합니다.
 import json
 
