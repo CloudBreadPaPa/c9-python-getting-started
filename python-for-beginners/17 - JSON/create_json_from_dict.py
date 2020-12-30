@@ -1,12 +1,12 @@
 import json
 
-# Create a dictionary object
+# Dictionary 객체 생성
 person_dict = {'first': 'Christopher', 'last':'Harrison'}
-# Add additional key pairs to dictionary as needed
+# 필요에 따라 dictionary에 key/value pair를 추가합니다.
 person_dict['City']='Seattle'
 
-# Convert dictionary to JSON object
+# Dictionary를 JSON 객체로 변환
 person_json = json.dumps(person_dict)
 
-# Print JSON object
+# JSON 객체 출력
 print(person_json)

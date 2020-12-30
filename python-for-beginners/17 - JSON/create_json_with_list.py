@@ -1,18 +1,18 @@
 import json
 
-# Create a dictionary object
+# Dictionary 객체 생성
 person_dict = {'first': 'Christopher', 'last':'Harrison'}
-# Add additional key pairs to dictionary as needed
+# 필요에 따라 dictionary에 key/value pair를 추가
 person_dict['City']='Seattle'
 
-# Create a list object of programming languages 
+# List 객체를 생성
 languages_list = ['CSharp','Python','JavaScript']
 
-# Add list object to dictionary for the languages key
+# List 객체를 dictionary에 languages를 key로 추가 
 person_dict['languages']= languages_list
 
-# Convert dictionary to JSON object
+# Dictionary를 JSON 객체로 변환
 person_json = json.dumps(person_dict)
 
-# Print JSON object
+# JSON 객체 출력
 print(person_json)
