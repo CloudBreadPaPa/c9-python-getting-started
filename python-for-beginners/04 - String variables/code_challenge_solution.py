@@ -1,10 +1,10 @@
-# ask a user to enter their first name and store it in a variable
+# 사용자에게 이름을 입력받고 변수에 저장
 first_name = input('What is your first name? ')
-# ask a user to enter their last name and store it in a variable
+# 사용자에게 성을 입력받고 변수에 저장
 last_name = input('What is your last name? ')
 
-# print their full name
-# Make sure you have a space between first and last name
-# Make sure the first letter of first name and last name is uppercase
-# Make sure the rest of the name is lowercase
+# 전체 이름을 모두 출력
+# 성과 이름 사이에 공백이 있는지 확인하세요.
+# 이름과 성의 첫 글자가 대문자인지 확인하세요
+# 나머지 이름은 소문자인지 확인하세요.
 print(first_name.capitalize() + ' ' + last_name.capitalize())
