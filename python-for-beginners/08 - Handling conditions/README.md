@@ -1,21 +1,21 @@
 # Handling conditions
 
-Conditional execution can be completed using the [if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) statement
+[if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) 문을 사용하여 분기(Condition) 명령을 처리합니다.
 
-`if` syntax
+`if` 구문
 
 ```python
 if expression:
-    # code to execute
+    # 실행할 코드
 else:
-    # code to execute
+    # 실행할 코드
 ```
 
-[Comparison operators](https://docs.python.org/3/library/stdtypes.html#comparisons)
+[비교(comparison) 연산자](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
-- < less than
-- < greater than
-- == is equal to
-- \>= greater than or equal to
-- <= less than or equal to
-- != not equal to
+- < 미만
+- < 초과
+- == 같음
+- \>= 이상(같거나 큼)
+- <= 이하(같거나 작음)
+- != 같지 않음
