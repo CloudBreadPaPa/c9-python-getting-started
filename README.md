@@ -9,7 +9,7 @@
 ## 소개
 Channel9 및 YouTube에 있는 이 세가지 시리즈 강좌는 Python을 빠르게 익힐 수 있도록 제작되었습니다. Python을 공부하고 싶은 초보 개발자이거나, Python을 사용하는 Data Science(머신러닝), 또는 웹 어플리케이션 프로젝트를 시작하려는 경우에 이 강좌가 많은 도움이 될 것입니다.
 
-이 강좌는 다른 프로그래밍 언어와 몇 가지 프로그래밍 개념에 약간 익숙하다고 가정합니다. 예를 들어 Boolean 표현식 및 클래스 생성에 대한 구문을 설명하지만, [boolean](https://en.wikipedia.org/wiki/Boolean_data_type) 또는 [객체 지향 개발 디자인](https : //en.wikipedia.org/wiki/Object-oriented_design) 개념에 대해서는 소개하지 않습니다. 
+이 강좌는 다른 프로그래밍 언어와 몇 가지 프로그래밍 개념에 약간 익숙하다고 가정합니다. 예를 들어 Boolean 표현식 및 클래스 생성에 대한 구문을 설명하지만, [boolean](https://en.wikipedia.org/wiki/Boolean_data_type) 또는 [객체 지향 개발 디자인](https://en.wikipedia.org/wiki/Object-oriented_design) 개념에 대해서는 소개하지 않습니다. 
 
 
 ### 진행 내용
