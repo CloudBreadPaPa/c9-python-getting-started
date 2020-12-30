@@ -10,6 +10,6 @@ else:
 	honour_roll = False
 
 
-#학생이 장학생인지 확인해야하는 경우 앞에서 세팅 한 Boolean 변수만 확인하면 됩니다.
+# 학생이 장학생인지 확인해야하는 경우 앞에서 세팅 한 Boolean 변수만 확인하면 됩니다.
 if honour_roll:
 	print('You made honour roll')
