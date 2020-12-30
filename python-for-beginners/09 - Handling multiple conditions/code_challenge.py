@@ -1,14 +1,11 @@
-# Ask a user their name
-# If their first name starts with A or B 
-# tell them they go to room AB
-# IF their first name starts with C
-# tell them to go to room CD
-# If their first name starts with another letter, ask for their last name
-# IF their last name starts with Z, tell them to go to room Z
-# if their last name starts with any other letter, tell them to go to room OTHER
-# When you are done
-# Anna should be in room AB
-# Bob should be in room AB
-# Charlie should be in room C
-# Khalid Haque should be in room OTHER
-# Xin Zhao should be in room Z
+# 사용자에게 이름을 묻습니다.
+# 이름이 A 또는 B로 시작하는 경우 AB 방으로 배정하세요.
+# 이름이 C로 시작하는 경우 C 방으로 배정하세요.
+# 이름이 다른 문자로 시작하면 성을 문의합니다.
+# 성이 Z로 시작하면 Z 방으로 가라고 말하세요
+# 성이 다른 문자로 시작하면 OTHER 방으로 가라고 말하세요.
+# 완료되면, Anna는 AB 방에 있어야합니다.
+# Bob은 AB 방에 있어야합니다.
+# Charlie는 C 방에 있어야합니다.
+# Khalid Haque는 OTHER 방에 있어야합니다.
+# Xin Zhao는 Z 방에 있어야합니다.

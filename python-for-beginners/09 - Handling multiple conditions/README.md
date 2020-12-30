@@ -1,28 +1,29 @@
 # Handling conditions
 
-Conditional execution can be completed using the [if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) statement. Adding `elif` allows you to check multiple conditions
+조건부(Condition) 실행은 [if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) 문을 사용하여 처리 할 수 있습니다. `elif`를 추가하면 여러 조건을 추가 가능합니다.
 
-`if` syntax
+`if` 구문
 
 ```python
 if expression:
-    # code to execute
+    # 실행할 코드
 elif expression:
-    # code to execute
+    # 실행할 코드
 else:
-    # code to execute
+    # 실행할 코드
 ```
 
-[Boolean operators](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+[Boolean 연산자](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 
-- **x *or* y** - If either x OR y is true, the expression is executed
+- **x *or* y** - x 또는 y가 true이면 구문이 실행됩니다.
 
-[Comparison operators](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
-- < less than
-- < greater than
-- == is equal to
-- \>= greater than or equal to
-- <= less than or equal to
-- != not equal to
-- **x *in* [a,b,c]** Does x match the value of a, b, or c
+[비교(Comparison) 연산자](https://docs.python.org/3/library/stdtypes.html#comparisons)
+
+- < 미만
+- < 초과
+- == 같음
+- \>= 이상(같거나 큼)
+- <= 이하(같거나 작음)
+- != 같지 않음
+- **x *in* [a,b,c]** x 값이 a, b, c 중의 한 값과 일치하는가?
