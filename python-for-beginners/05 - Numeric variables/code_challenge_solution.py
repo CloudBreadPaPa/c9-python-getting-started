@@ -1,16 +1,16 @@
-# Ask a user to enter a number
+# 사용자에게 번호 입력 받음
 first_number = input('Enter a number: ')
 
-# Ask a user to enter a second number
+# 사용자에게 두 번째 숫자를 입력 받음
 second_number = input('Enter another number: ')
 
-# Calculate the total of the two numbers added together
+# 입력 받은 두 숫자의 합을 계산
 answer = float(first_number) + float(second_number)
 
-# Print 'first number + second number = answer' 
-# For example if someone enters 4 and 6 the output should read
+# 'first number + second number = answer' 출력
+# 예를 들어 4와 6을 입력하면 출력은
 # 4 + 6 = 10
 print(first_number + ' + ' + second_number + ' = ' + str(answer))
 
-# If you do not want the decimal places you could round the answer
+# 소수점 이하 자릿수를 원하지 않을 경우, 결과를 반올림 할 수 있습니다.
 print(first_number + ' + ' + second_number + ' = ' + str(round(answer)))
