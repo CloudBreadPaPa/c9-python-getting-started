@@ -1,31 +1,27 @@
-# Packages and modules
+# 패키지(Packages)와 모듈(Modules)
 
-## Modules
+## 모듈
 
-[Modules](https://docs.python.org/3/tutorial/modules.html) allow you to store reusable blocks of code, such as functions, in separate files. They're referenced by using the `import` statement.
+[모듈](https://docs.python.org/3/tutorial/modules.html)을 사용하면 함수와 같은 재사용 가능한 코드를 별도의 파일에 저장할 수 있습니다. 모듈은 `import` 구문을 사용하여 참조할 수 있습니다.
 
 ``` python
-# import module as namespace
+# 모듈을 네임스페이스(namespace)로 import
 import helpers
 helpers.display('Not a warning')
 
-# import all into current namespace
+# 모든 항목들을 네임스페이스로 import
 from helpers import *
 display('Not a warning')
 
-# import specific items into current namespace
+# 특정 항목만 네임스페이스로 import
 from helpers import display
 display('Not a warning')
 ```
 
-## Packages
+## 패키지(Packages)
 
-[Distribution packages](https://packaging.python.org/glossary/#term-distribution-package) are external archive files which contain resources such as classes and functions. Most every application you create will make use of one or more packages. Imports from packages follow the same syntax as modules you've created. The [Python Package index](https://pypi.org/) contains a full list of packages you can install using [pip](https://pip.pypa.io/en/stable/).
+[배포 패키지(Distribution packages)](https://packaging.python.org/glossary/#term-distribution-package)는 클래스 및 함수와 같은 리소스를 포함하는 외부 저장소의 파일입니다. 생성하는 대부분의 모든 Python 응용 프로그램은 하나 이상의 패키지를 사용합니다. 패키지에서 import는 생성 한 모듈과 동일한 구문을 따릅니다. [Python 패키지 인덱스](https://pypi.org/)에는 [pip](https://pip.pypa.io/en/stable/)를 사용하여 설치할 수있는 전체 패키지 목록이 있습니다.
 
 ## Virtual environments
 
-[Virtual environments](https://docs.python.org/3.7/tutorial/venv.html) allow you to install packages into an isolated folder. This allows you to better manage versions.
-
-``` console
-
-```
+[Virtual environments](https://docs.python.org/3.7/tutorial/venv.html)을 사용하면 격리 된 폴더에 패키지를 설치할 수 있습니다. 이를 통해 버전을 더 잘 관리 할 수 있습니다.
