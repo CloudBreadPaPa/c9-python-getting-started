@@ -1,4 +1,4 @@
-# print today's date
-# print yesterday's date
-# ask a user to enter a date
-# print the date one week from the date entered
+# 오늘의 날짜 출력
+# 어제의 날짜 출력
+# 사용자에게 날짜 입력 요청
+# 입력 받은 날짜로부터 1주 후 날짜 출력
