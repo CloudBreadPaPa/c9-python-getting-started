@@ -1,13 +1,14 @@
-# Removing and splitting DataFrame columns
+# pandas DataFrame column 제거 및 분할(split)
 
-When preparing data for machine learning you may need to remove specific columns from the DataFrame.
+머신러닝을 수행하기 위해 데이터를 준비 할 때, DataFrame에서 특정 column을 제거해야 하는 경우가 있습니다.
 
-## Common functions
+## 일반적인 기능
 
-- [drop](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html) deletes specified columns from a DataFrame
+- [drop](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html) DataFrame에서 지정된 column들을 삭제합니다.
 
-## Microsoft Learn Resources
+## Microsoft Learn 리소스
 
-Explore related tutorials on [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner).
+[Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner) 에서 관련 자습서를 살펴보세요.
 
-- [Intro to machine learning with Python and Azure Notebooks](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
+- [Python과 Azure Notebooks을 이용한 머신러닝 소개](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
+
