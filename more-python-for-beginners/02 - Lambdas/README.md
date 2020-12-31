@@ -1,6 +1,6 @@
 # Lambdas
 
-[lambda](https://www.w3schools.com/python/python_lambda.asp) 함수는 작은 익명(anonymous) 함수입니다. 인수는 여러개를 사용할 수 있지만, 오직 하나의 표현식만 실행 가능합니다.
+[lambda](https://www.w3schools.com/python/python_lambda.asp) 함수는 작은 익명(anonymous) 함수입니다. Argument(인수)는 여러개를 사용할 수 있지만, 오직 하나의 표현식(expression)만 실행 가능합니다.
 
 ## Microsoft Learn 리소스
 
