@@ -3,14 +3,14 @@ cwd = Path.cwd()
 
 demo_file = Path(Path.joinpath(cwd, 'demo.txt'))
 
-# Get the file name
+# 파일명 가져오기
 print('\nfile name: ' + demo_file.name)
 
-# Get the extension
+# 파일의 확장자 가져오기
 print('\nfile suffix: ' + demo_file.suffix)
 
-# Get the folder
+# 폴도명 가져오기
 print('\nfile folder: ' + demo_file.parent.name)
 
-# Get the size
+# 크기 가져오기
 print('\nfile size: ' + str(demo_file.stat().st_size) + '\n')
