@@ -1,6 +1,5 @@
 def print_hello(name: str) -> str:
     """
-    Greets the user by name
 	이름으로 사용자 환영
 
 	파라미터:

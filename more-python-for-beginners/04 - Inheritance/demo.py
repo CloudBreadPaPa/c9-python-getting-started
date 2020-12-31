@@ -14,7 +14,7 @@ class Student(Person):
 student = Student('Christopher', 'UVM')
 student.say_hello()
 student.sing_school_song()
-# What are you?
+# 누구신가요?
 print(isinstance(student, Student))
 print(isinstance(student, Person))
 print(issubclass(Student, Person))

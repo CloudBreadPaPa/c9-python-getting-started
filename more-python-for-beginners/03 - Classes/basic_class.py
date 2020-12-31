@@ -1,9 +1,9 @@
 class Presenter():
 	def __init__(self, name):
-		# Constructor
+		# 생성자(Constructor)
 		self.name = name
 	def say_hello(self):
-		# method
+		# 메서드(method)
 		print('Hello, ' + self.name)
 
 presenter = Presenter('Chris')

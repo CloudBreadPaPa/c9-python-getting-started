@@ -1,6 +1,6 @@
 class Presenter():
 	def __init__(self, name):
-		# Constructor
+		# 생성자(Constructor)
 		self.name = name
 
 	@property
@@ -9,7 +9,7 @@ class Presenter():
 		return self.__name
 	@name.setter
 	def name(self, value):
-		# cool validation here
+		# 이곳에 검증 코드가 있다고 가정
 		print('Validating name...')
 		self.__name = value
 
