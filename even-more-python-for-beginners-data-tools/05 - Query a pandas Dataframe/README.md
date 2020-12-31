@@ -1,14 +1,15 @@
-# Query a pandas DataFrame
+# pandas DataFrame 쿼리
 
-The pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)  is a structure for storing two-dimensional tabular data.
+pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)은 2차원 테이블 형식의 데이터를 저장하기위한 구조입니다.
 
-## Common properties
+## 일반적인 속성(property)
 
-- [loc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html) returns specific rows and columns by specifying column names
-- [iloc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html) returns specific rows and columns by specifying column positions
+- [loc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html) column 이름을 지정하여 특정 column과 row를 반환합니다.
+- [iloc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html) coulmn 인덱스 위치를 지정하여 특정 row와 column을 반환합니다. 
+  
+## Microsoft Learn 리소스
 
-## Microsoft Learn Resources
+[Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner) 에서 관련 자습서를 살펴보세요.
 
-Explore related tutorials on [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner).
+- [Python과 Azure Notebooks을 이용한 머신러닝 소개](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
 
-- [Intro to machine learning with Python and Azure Notebooks](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
