@@ -1,17 +1,17 @@
-# Open manage.txt file to write text
+# 텍스트 쓰기 작업을 위해 manage.txt 파일 객체를 가져옵니다.
 stream = open('manage.txt', 'wt')
 
-#Write the word demo to the file stream
+# 파일스트림에 demo 단어를 작성
 stream.write('demo!')
 
-# Move back to the start of the file stream
+# 파일스트림의 시작 위치로 이동
 stream.seek(0)
 
-#write the word cool to the file stream
+# cool 단어를 파일시스템에 작성
 stream.write('cool')
 
-#Flush the file stream contents to the file buffer
+# 파일 버퍼로 파일스트림 콘텐트를 flush(플러시)
 stream.flush()
 
-# Flush the file stream and close the file
+# 파일스트림을 flush하고 파일 close
 stream.close()
