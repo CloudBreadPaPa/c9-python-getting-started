@@ -10,24 +10,24 @@ async def load_data(session, delay):
         return text
 
 async def main():
-    # Start the timer
+    # 타이머 시작
     start_time = default_timer()
 
-    # Creating a single session
+    # 하나의 세션 생성
     async with aiohttp.ClientSession() as session:
-        # Setup our tasks and get them running
+        # 작업을 설정하고 실행
         two_task = asyncio.create_task(load_data(session, 2))
         three_task = asyncio.create_task(load_data(session, 3))
 
-        # Simulate other processing
+        # 다른 프로세싱 시뮬레이션
         await asyncio.sleep(1)
         print('Doing other work')
 
-        # Let's go get our values
+        # value 값들을 가져오기
         two_result = await two_task
         three_result = await three_task
 
-        # Print our results
+        # 결과 출력
         elapsed_time = default_timer() - start_time
         print(f'The operation took {elapsed_time:.2} seconds')
 
