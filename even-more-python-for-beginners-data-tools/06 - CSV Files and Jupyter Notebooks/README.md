@@ -7,4 +7,3 @@ CSV 파일은 쉼표로 구분 된 변수 파일입니다. CSV 파일은 데이�
 [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner) 에서 관련 자습서를 살펴보세요.
 
 - [Python과 Azure Notebooks을 이용한 머신러닝 소개](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
-
