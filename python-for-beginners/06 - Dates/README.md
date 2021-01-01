@@ -2,7 +2,6 @@
 
 [datetime 모듈](https://docs.python.org/3/library/datetime.html)에는 날짜 및 시간을 처리하기 위한 여러 클래스들이 포함되어 있습니다.
 
-Date and time types:
 date와 time 데이터형
 
 - `date` 년, 월, 일을 포함
