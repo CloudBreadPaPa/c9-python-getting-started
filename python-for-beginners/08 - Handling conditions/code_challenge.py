@@ -2,12 +2,3 @@
 # 2.00을 입력하면 "세율: 0.07"이라는 메시지가 출력됩니다.
 # 1.00을 입력하면 "세율: 0.07"이라는 메시지가 출력됩니다.
 # 0.50을 입력하면 "세율: 0"이라는 메시지가 출력됩니다.
-
-price = input('how much did you pay? ')
-
-if price > 1.00:
-	tax = .07
-	print('Tax rate is: ' + str(tax))
-else
-	tax = 0
-print('Tax rate is: ' + str(tax))
