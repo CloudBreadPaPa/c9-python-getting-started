@@ -1,6 +1,5 @@
 # Date values
 
-The [datetime module](https://docs.python.org/3/library/datetime.html) contains a number of classes for manipulating dates and times.
 [datetime 모듈](https://docs.python.org/3/library/datetime.html)에는 날짜 및 시간을 처리하기 위한 여러 클래스들이 포함되어 있습니다.
 
 Date and time types:
