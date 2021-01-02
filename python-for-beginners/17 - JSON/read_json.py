@@ -8,8 +8,9 @@ import requests
 # 웹 서비스의 응답(Response)를 처리하려면 json 라이브러리가 필요합니다.
 import json
 
-# 아래 Vision_service_address를 자신에게 맞는 Computer Vision API 서비스의 주소로 수정해야 합니다.
-vision_service_address = "https://koreacentral.api.cognitive.microsoft.com/vision/v2.0/"  # 한국지역
+# 아래 Vision_service_address를 자신에게 할당된 Computer Vision API 서비스의 주소로 수정해야 합니다. 
+# 유료 가입 계정과 7일 체험 계정의 endpoint가 다를 수 있습니다. 맨 뒤의 "/v2.0/"을 확인하세요.
+vision_service_address = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/" 
 
 # 호출하려는 API 함수의 이름을 주소에 추가합니다.
 address = vision_service_address + "analyze"

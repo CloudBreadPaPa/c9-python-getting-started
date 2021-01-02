@@ -2,6 +2,8 @@
 # Comupter Vision 이미지 분석 API method에 대한 문서는 이곳에서 참고하세요.
 # https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa
 
+# SQLER 강좌의 내용 https://www.sqler.com/board_CSharp/1095782 을 참조하세요.
+
 # requests 라이브러리를 사용하여 Python에서 간단하게 REST API 호출을 진행합니다.
 import requests
 
@@ -11,8 +13,9 @@ import json
 # SUBSCRIPTION_KEY를 자신의 Computer Vision 서비스의 키로 수정하세요.
 SUBSCRIPTION_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-# 아래 Vision_service_address를 자신에게 맞는 Computer Vision API 서비스의 주소로 수정해야 합니다.
-vision_service_address = "https://koreacentral.api.cognitive.microsoft.com/vision/v2.0/"  # 한국지역
+# 아래 Vision_service_address를 자신에게 할당된 Computer Vision API 서비스의 주소로 수정해야 합니다. 
+# 유료 가입 계정과 7일 체험 계정의 endpoint가 다를 수 있습니다. 맨 뒤의 "/v2.0/"을 확인하세요.
+vision_service_address = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/" 
 
 # 호출하려는 API 함수의 이름을 주소에 추가합니다.
 address = vision_service_address + "analyze"
