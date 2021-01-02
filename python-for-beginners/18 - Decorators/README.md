@@ -1,7 +1,5 @@
 # Decorators
 
-[Decorators](https://www.python.org/dev/peps/pep-0318/) are similar to attributes in that they add meaning or functionality to blocks of code in Python. They're frequently used in frameworks such as [Flask](http://flask.pocoo.org/) or [Django](https://www.djangoproject.com/). The most common interaction you'll have with decorators as a Python developer is through using them rather than creating them.
-
 [데코레이터(Decorators)](https://www.python.org/dev/peps/pep-0318/)는 Python의 코드 블록에 의미 나 기능을 추가한다는 점에서 속성(attribute)과 유사합니다. [Flask](http://flask.pocoo.org/) 또는 [Django](https://www.djangoproject.com/)와 같은 프레임 워크에서 자주 사용됩니다. Python 개발자로서 대부분의 경우, Decorator를 만들기 보다는 주로 사용하게 될 것입니다.
 
 ``` python
