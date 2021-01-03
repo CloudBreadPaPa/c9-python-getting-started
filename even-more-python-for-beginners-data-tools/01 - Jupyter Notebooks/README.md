@@ -2,17 +2,9 @@
 
 Jupyter Notebook은 Python 코드를 만들고 공유 할 수있는 오픈 소스 웹 애플리케이션입니다. 머신러닝과 Data Science에 자주 사용됩니다. 이 과정의 코드들 파일 확장자가 .ipynb 인 Jupyter Notebook을 사용하여 진행됩니다.
 
-## Documentation
-
-- [Jupyter](https://jupyter.org/) to install Jupyter so you can run Jupyter Notebooks locally on your computer
-- [Jupyter Notebook viewer](https://nbviewer.jupyter.org/) to view Jupyter Notebooks in this GitHub repository without installing Jupyter
-- [Azure Notebooks](https://notebooks.azure.com/) to create a free Azure Notebooks account to run Notebooks in the cloud
-- [Create and run a notebook](https://docs.microsoft.com/azure/notebooks/tutorial-create-run-jupyter-notebook?WT.mc_id=python-c9-niner) is a tutorial that walks you through the process of using Azure Notebooks to create a complete Jupyter Notebook that demonstrates linear regression
-- [How to create and clone projects](https://docs.microsoft.com/azure/notebooks/create-clone-jupyter-notebooks?WT.mc_id=python-c9-niner) to create a project
-- [Manage and configure projects in Azure Notebooks](https://docs.microsoft.com/azure/notebooks/configure-manage-azure-notebooks-projects?WT.mc_id=python-c9-niner) to upload Notebooks to your project
-
+## 참고자료
 - [Jupyter](https://jupyter.org/) : Jupyter를 설치하여 로컬에서 Jupyter 노트북을 실행합니다.
-- [Jupyter 노트북 뷰어](https://nbviewer.jupyter.org/) : Jupyter를 설치하지 않고이 GitHub 저장소의 Jupyter 노트북을 볼 수 있습니다.
+- [Jupyter 노트북 뷰어](https://nbviewer.jupyter.org/) : Jupyter를 설치하지 않고 GitHub 저장소의 Jupyter 노트북을 볼 수 있습니다.
 - [Azure Notebooks](https://notebooks.azure.com/) : 2021년 1월 15일 - 서비스 종료 예정
 - [노트북 만들기 및 실행](https://docs.microsoft.com/azure/notebooks/tutorial-create-run-jupyter-notebook?WT.mc_id=python-c9-niner)은 단계별로 진행되는 튜토리얼 문서입니다. Azure Notebooks를 사용하여 선형 회귀(linear regression)를 보여주는 완전한 Jupyter Notebook을 만드는 프로세스가 진행됩니다.
 - [프로젝트 생성 및 복제 방법](https://docs.microsoft.com/azure/notebooks/create-clone-jupyter-notebooks?WT.mc_id=python-c9-niner)에서 프로젝트 생성을 해볼 수 있습니다.
